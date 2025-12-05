@@ -108,11 +108,18 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
-        <div className="w-6 h-10 border-2 border-gray-400 rounded-full flex items-start justify-center p-2">
-          <div className="w-1 h-3 bg-gray-400 rounded-full animate-pulse" />
-        </div>
-      </div>
-    </section>
-  );
-}
+      <section className="relative w-full pb-32">
+  {/* Conteúdo da seção */}
+
+  <div className="
+    absolute 
+    bottom-20 md:bottom-6 
+    left-1/2 transform -translate-x-1/2 
+    animate-bounce 
+    z-10
+  ">
+    <div className="w-6 h-10 border-2 border-gray-400 rounded-full flex items-start justify-center p-2">
+      <div className="w-1 h-3 bg-gray-400 rounded-full animate-pulse" />
+    </div>
+  </div>
+</section>
